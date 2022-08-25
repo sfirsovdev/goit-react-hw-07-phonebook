@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { nanoid } from 'nanoid';
 import { FilterContainer, FilterInput, Text } from './Filter.styled';
-import { TiZoomOutline } from 'react-icons/ti';
+
 import { getFilter } from '../../redux/contactsSelectors';
 import { filterSlice } from '../../redux/myContacts/filterSlice';
 const filterId = nanoid();
@@ -13,7 +13,7 @@ export const Filter = () => {
   return (
     <FilterContainer>
       <Text>
-        Find contacts by name <TiZoomOutline size={25} />
+        Find contacts by name  
       </Text>
       <FilterInput
         type="text"

@@ -27,4 +27,6 @@ export const Text = styled.label`
   align-items: center;
   justify-content: center;
   margin-top: ${p => p.theme.space[3]}px;
+  margin-bottom: ${p => p.theme.space[4]}px;
+  
 `;

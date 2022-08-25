@@ -27,7 +27,7 @@ export const DeleteButton = styled.button`
   :hover,
   :focus {
     color: ${p => p.theme.colors.white};
-    background-color: ${p => p.theme.colors.red};
+    background-color: ${p => p.theme.colors.green};
   }
 `;
 

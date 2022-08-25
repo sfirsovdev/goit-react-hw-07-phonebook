@@ -7,9 +7,9 @@ export const theme = {
     background: 'rgb(147, 198, 243)',
     secondary: '#05a',
     accent: '#B0C4DE',
-    accentText: '#191970',
+    accentText: '#0202b8',
     muted: '#f6f6f6',
-    red: '#8B0000',
+    green: '#189644',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
